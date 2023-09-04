@@ -27,6 +27,6 @@ public class DigitalAssetTokenContract implements Contract {
                 return true;
             }
         }
-        return false;
+        return checker.containsMySigningKeys(state.getParticipants());
     }
 }

@@ -131,7 +131,7 @@ RequestBody for triggering the flow via REST:
     "clientRequestId": "place-art-2",
     "flowClassName": "com.r3.developers.samples.digitalassets.workflows.PlaceArtWorkFlow",
     "requestBody": {
-        "assetId": "2ad51b5e-c3bd-4452-a53d-348a3a6c82be",
+        "assetId": "7c042f8e-3da8-4f11-b473-d0b2c3cfab24",
         "symbol": "ART-1",
         "amount": 500,
         "issuer": "CN=Bank, OU=Test Dept, O=R3, L=London, C=GB"
