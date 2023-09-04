@@ -4,9 +4,7 @@ public class ApproveArtWorkFlowArgs {
     private String assetRef;
     private String action; // APPROVE/ REJECR
 
-    public ApproveArtWorkFlowArgs(String assetRef, String action) {
-        this.assetRef = assetRef;
-        this.action = action;
+    public ApproveArtWorkFlowArgs() {
     }
 
     public String getAssetRef() {
